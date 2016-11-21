@@ -1,0 +1,1 @@
+[29-Jun-2016 20:25:19 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): No such file or directory in /home/upashamhospital/public_html/software/connection/db.php on line 7

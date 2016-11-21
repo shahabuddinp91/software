@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    
+}
+a{text-decoration: none;}
+.row:after {
+    content: "";
+    clear: both;
+    display: block;
+    
+}
+
+body{
+    height: 100%;
+    background: url(../images/patern.png);
+    font-family: initial;
+
+}
+
+
+
+
+.dashbord_area {
+    /*background: #3BB7DB none repeat scroll 0 0;*/
+    padding: 15px 0;
+}
+.dashboard_text {
+    color: #000;
+    font-family: caption;
+    font-size: 16px;
+    font-weight: bolder;
+}
+.dashboard_text img{width: 100%; }
+
+
+.manu {
+    margin-top: 25px;
+}
+.manu li {
+    list-style: outside none none;
+    text-decoration: none;
+}
+.manu ul {
+    padding-left: 0;
+}
+.manu a {
+    background: #33b5e5 none repeat scroll 0 0;
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 10px 5px;
+    text-decoration: none;
+    width: 210px;
+    font-family: caption;
+     font-size: 16px;
+}
+.manu a:hover {
+    background: #0099cc none repeat scroll 0 0;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.welcome_text {
+    margin-left: 30px;
+    padding: 0 15px;
+}
+.welcome_text h2 {
+     border-bottom: 1px solid;
+    color: #ccc;
+    display: inline-block;
+    font-family: caption;
+    font-size: 22px;
+    margin-left: 144px;
+    opacity: 0.9;
+    text-transform: uppercase;
+}
+
+.welcome_text p {
+    color: #000;
+    font-family: caption;
+    font-size: 14px;
+    opacity: 0.6;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+#copyright {
+    background: #a4bed9 none repeat scroll 0 0;
+    color: #fff;
+    font-family: caption;
+    font-size: 15px;
+    text-align: center;
+      padding: 10px 0;
+    
+}
+.row::after {
+    min-height: 0px;
+}
+/*receiption*/
+.admission_details_form_area_total{
+/*    height: 800px;*/
+    margin-left: 0;
+    width: 523px;
+}
+/*.right_content_area{
+    height: 710px;
+}*/
+.entry_form_area_total {
+/*    height: 715px;*/
+    margin-left: 0;
+    width: 520px;
+}
+.patient_admission_system{
+/*    height: 760px;*/
+    margin-left: 0;
+    width: 535px;
+}
+.patient_release_system{
+/*    height: 650px;*/
+    margin-left: 0;
+    width: 530px;
+}
+/*Diagonostic*/
+.patient_test_bill{
+/*    height: 560px;*/
+    margin-left: 0;
+    width: 523px;
+}
+.add_test_info{
+/*    height: 280px;*/
+    margin-left: 0;
+    width: 523px;
+}
+/*Pharmacy*/
+.add_drug_store{
+/*    height: 380px;*/
+    margin-left: 0;
+    width: 490px;
+}
+.edit_drug_store{
+/*    height: 410px;*/
+    margin-left: 0;
+    width: 500px;
+}
+.drug_sell_system{
+/*    height: 600px;*/
+    margin-left: 0;
+    width: 523px;
+}
+/*accounts*/
+.store_all_bill{
+/*    height: 970px;*/
+    margin-left: 0;
+    width: 523px;
+}
+
+
